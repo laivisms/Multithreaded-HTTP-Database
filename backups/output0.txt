@@ -1,0 +1,11 @@
+2017:01:09:17:34:17:37
+{
+create table People(ID int, Name varchar(255), Money Decimal(4,2), primary key(ID));
+ID, Name, Money|
+1224, 'Paul', 22.45|
+1111, 'Deena', 1000.0|
+1112, 'Dillon', 52.0|
+1113, 'Dan', 0.02|
+1114, 'mike', 9999.99|
+1115, 'rich', 1.0|
+}

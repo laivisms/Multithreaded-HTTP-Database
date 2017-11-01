@@ -1,0 +1,21 @@
+2017:01:09:18:04:54:833
+{
+create table People(ID int, Name varchar(255), Money Decimal(4,2), primary key(ID));
+ID, Name, Money|
+1224, 'Paul', 22.45|
+1111, 'Deena', 1000.0|
+1112, 'Dillon', 52.0|
+1113, 'Dan', 0.02|
+1114, 'mike', 9999.99|
+1115, 'rich', 1.0|
+}
+{
+create table Books(Title varchar(255) not null, ISBN int, Price decimal(3,2), Rating int, primary key (ISBN));
+Price, Title, Rating, ISBN|
+24.99, 'Dune', 9, 1111|
+12.99, 'Tortilla Flat', 8, 1001|
+9.99, 'Foundation', 9, 1112|
+32.99, 'The Source', 7, 1113|
+2.99, 'How To Draw', 4, 1114|
+15.32, 'The City And The Stars', 8, 1115|
+}

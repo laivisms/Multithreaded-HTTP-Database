@@ -1,0 +1,41 @@
+2017:01:09:22:32:45:408
+{
+create table People(ID int, Name varchar(255), Money Decimal(4,2), primary key(ID));
+ID, Name, Money|
+1224, 'Paul', 22.45|
+1111, 'Deena', 1000.0|
+1112, 'Dillon', 52.0|
+1113, 'Dan', 0.02|
+1114, 'mike', 9999.99|
+1115, 'rich', 1.0|
+}
+{
+create table Books(Title varchar(255) not null, ISBN int, Price decimal(3,2), Rating int, primary key (ISBN));
+Price, Title, Rating, ISBN|
+24.99, 'Dune', 9, 1111|
+12.99, 'Tortilla Flat', 8, 1001|
+9.99, 'Foundation', 9, 1112|
+32.99, 'The Source', 7, 1113|
+2.99, 'How To Draw', 4, 1114|
+15.32, 'The City And The Stars', 8, 1115|
+}
+{
+create table Animals(ID int, Species varchar(255) NOT NULL, Weight Decimal(4,2), Mammal boolean DEFAULT true, primary key(ID));
+Weight, Mammal, ID, Species|
+12.4, true, 1111, 'Cat'|
+22.55, true, 1112, 'Dog'|
+1.02, false, 1113, 'Starfish'|
+210.23, true, 1115, 'Eric Burdon'|
+45.33, true, 1116, 'Monkey'|
+22.12, true, 1117, 'My Pet Fluffy'|
+}
+{
+create table GPU(ID int, Brand varchar(255), Title varchar(255), Cost Decimal(4,2), RAM int, primary key(ID));
+Brand, Title, ID, Cost, RAM|
+'NVidia', 'GEForce 1060', 1111, null, 6|
+'NVidia', 'GEForce 980', 1112, null, 4|
+'NVidia', 'GEForce 960', 1113, null, 2|
+'AMDRadeon', 'R9 380X', 1114, null, 8|
+'NVidia', 'GEForce 1080', 1115, null, 12|
+'NVidia', 'GEForce 1070', 1116, null, 8|
+}
