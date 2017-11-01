@@ -3,6 +3,8 @@ The Multithreaded HTTP Database program.
 	This program is run by compiling and starting the ResurrectionServer. One may then start
 the DataBaseUI, for a shell UI to access the Database.
 
+This program uses Maven dependencies, so must be run and/or compiled using Maven.
+
 The Database accepts the following SQL commands: SELECT, UPDATE, DELETE, and INSERT INTO.
 
 The additional command "show tables" returns a list of all existing table names in the database
